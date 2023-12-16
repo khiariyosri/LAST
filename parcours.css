@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     color: #ededed;
-    background: url('C:/Users/yosri/Desktop/cv2/photo-1530533718754-001d2668365a.avif') no-repeat;
+    background: url('C:/Users/yosri/Desktop/cv2/wallpaperflare.com_wallpaper.jpg') no-repeat;
 }
 
 header {
@@ -114,7 +114,7 @@ header {
     opacity: 1;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
-    margin: 30px 15px 30px 0;
+    margin: 30px 10px 30px 0;
 }
 
 .home-sci a:hover {
@@ -122,21 +122,20 @@ header {
     color: #081b29;
     box-shadow: 0 0 20px #0ef;
 }
-
 .slide {
     display: flex;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .slide img {
     width: 100%;
-    max-width: 300px; /* Ajustez cette valeur selon vos besoins */
+    max-width: 250px;
     height: auto;
     display: block;
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.5s ease-in-out;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 .slide:last-child img {
@@ -144,7 +143,7 @@ header {
 }
 
 .slide:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1) ;
 }
 
 .text {
@@ -161,3 +160,4 @@ header {
 .slide:hover .text {
     opacity: 1;
 }
+
