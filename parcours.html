@@ -1,22 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <title>Parcours Académiques De Yosri Khiari</title>
+    <link rel="stylesheet" href="parcours.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Parcours Académiques De Yosri Khiari</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="parcours.html">Parcours académiques</a></li>
-                <li><a href="experiences.html">Expériences</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">Parcours Académiques</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1">Home</a>
+            <a href="parcours.html" style="--i:2" class="active">About</a>
+            <a href="experiences.html" style="--i:3">Skill</a>
+            <a href="contact.html" style="--i:4">Contact</a>
         </nav>
     </header>
 
@@ -24,34 +26,39 @@
         <section>
             <h2>Diplômes</h2>
 
-            <div>
+            <div class="slide">
                 <img src="dip1.png" alt="Excellents résultats scolaires">
-                <h3>Excellents résultats scolaires</h3>
-                <p>Obtention d'excellents résultats dans toutes les matières tout au long de l'année scolaire.</p>
+                <div class="text">
+                    <h3>Excellents résultats scolaires</h3>
+                    <p>Obtention d'excellents résultats<br> dans toutes les matières tout au long de l'année scolaire.</p>
+                </div>
             </div>
 
-            <div>
+            <div class="slide">
                 <img src="dip2.png" alt="Contributions à la création de Logements Phénix">
-                <h3>Contributions à la création de Logements Phénix (2020)</h3>
-                <p>Contributions à la création de Logements Phénix en 2020.</p>
+                <div class="text">
+                    <h3>Contributions à la création de Logements Phénix (2020)</h3>
+                    <p>Contributions à la création<br> de Logements Phénix en 2020.</p>
+                </div>
             </div>
 
-            <div>
+            <div class="slide">
                 <img src="dip3.png" alt="Diplôme d'Ingénieur Professionnel">
-                <h3>Diplôme d'Ingénieur Professionnel - Académie de Condorcet</h3>
-                <p>Terminé le programme d'ingénieur professionnel de l'Académie de Condorcet.</p>
+                <div class="text">
+                    <h3>Diplôme d'Ingénieur Professionnel - Académie de Condorcet</h3>
+                    <p>Terminé le programme d'ingénieur professionnel de l'Académie de Condorcet.</p>
+                </div>
             </div>
 
-            <div>
+            <div class="slide">
                 <img src="dip4.png" alt="Cours d'Audit Interne">
-                <h3>Cours d'Audit Interne</h3>
-                <p>Reconnaissance de l'achèvement du cours d'audit interne.</p>
+                <div class="text">
+                    <h3>Cours d'Audit Interne</h3>
+                    <p>Reconnaissance de l'achèvement du cours d'audit interne.</p>
+                </div>
             </div>
         </section>
     </main>
-
-    <footer>
-    </footer>
 </body>
 
 </html>

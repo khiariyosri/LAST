@@ -1,59 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <title>Portfolio de Yosri Khiari</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Explorez le Monde Unique de Yosri Khiari</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="parcours.html">Parcours académiques</a></li>
-                <li><a href="experiences.html">Expériences</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html" style="--i:1" class="active">Home</a>
+            <a href="parcours.html" style="--i:2">About</a>
+            <a href="experiences.html" style="--i:3">Skill</a>
+            <a href="contact.html" style="--i:4">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Bienvenue dans Mon Univers</h2>
-            <p>Je suis Yosri Khiari, un auditeur passionné de cybersécurité, sculptant la sécurité numérique avec créativité et précision.</p>
-            <p>Découvrez mes projets uniques qui repoussent les limites de la cybersécurité.</p>
-        </section>
-
-        <section>
-            <h2>Projets en Cybersécurité</h2>
-
-            <div>
-                <img src="images.png" alt="Chiffrement et Cryptographie">
-                <div>
-                    <h3>Chiffrement et Cryptographie</h3>
-                    <p>Réalisation d'un système de chiffrement avancé utilisant l'algorithme AES. Application de concepts de cryptographie moderne pour assurer la confidentialité des données sensibles dans les communications.</p>
-                    <p>Technologies utilisées : AES, RSA, Diffie-Hellman</p>
-                </div>
+    <section class="home">
+        <div class="home-content">
+            <h3>Bienvenue dans Mon Univers</h3>
+            <h1>Yosri Khiari</h1>
+            <h3>Et je suis un <span class="text"></span></h3>
+            <p>Je suis Yosri Khiari, un auditeur passionné de cybersécurité.
+                <br> Sculptant la sécurité numérique avec créativité et précision
+            </p>
+            <div class="home-sci">
+                <a href="#" style="--i:5"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#" style="--i:6"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-tiktok'></i></a>
             </div>
-
-            <div>
-                <img src="téléchargé.jfif" alt="Destruction Systématique des Fichiers">
-                <div>
-                    <h3>Destruction Systématique des Fichiers</h3>
-                    <p>Développement d'une solution de destruction sécurisée des fichiers pour garantir l'élimination permanente des données confidentielles. Utilisation d'algorithmes de destruction sécurisée conformes aux normes DoD 5220.22-M.</p>
-                    <p>Technologies utilisées : Gutmann method, DoD 5220.22-M</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>2023 Portfolio Unique de Yosri Khiari. Tous droits réservés.</p>
-    </footer>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 
 </html>
